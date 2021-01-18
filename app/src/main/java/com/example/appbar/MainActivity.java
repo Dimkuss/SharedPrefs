@@ -35,6 +35,13 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this, "Отркыть записную книжку", Toast.LENGTH_LONG).show();
             return true;
         }
+        if (id == R.id.action_open_spinner) {
+            Intent intentSpinner = new Intent(MainActivity.this, SpinnerActivity.class);
+            startActivity(intentSpinner);
+
+            Toast.makeText(MainActivity.this, "Отркыть выбор городов", Toast.LENGTH_LONG).show();
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
     }

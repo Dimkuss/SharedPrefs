@@ -14,4 +14,9 @@
         android:orderInCategory="100"
         android:title="@string/notesBar"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_spinner"
+        android:orderInCategory="100"
+        android:title="@string/showAddress"
+        app:showAsAction="never" />
 </menu>

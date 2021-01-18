@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".NotesActivity"/>
+        <activity android:name=".SpinnerActivity"/>
     </application>
 
 </manifest>
